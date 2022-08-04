@@ -1,5 +1,10 @@
 function getComputerChoice(){
     let choices = ['Rock', 'Paper', 'Scissors'];
     let randomnumber = Math.floor(Math.random()* 3);
-    console.log(choices[randomnumber]);
+    let Computer = choices[randomnumber];
+    return Computer;
+}
+
+function roundplay(playerselection){
+
 }
